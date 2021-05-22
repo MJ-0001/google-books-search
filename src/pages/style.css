@@ -1,3 +1,36 @@
 .my-form {
   height: 170px;
 }
+
+.book-info {
+  display: flex;
+}
+
+.book-image {
+  flex: 1%;
+  padding: 5px 1px 5px 2%;
+  /* width: 15%;
+  max-width: 25%; */
+  /* border: solid red 2px; */
+}
+
+.book-desc {
+  flex: 60%;
+  padding: 5px 50px 5px 5px;
+  /* border: solid blue 2px; */
+}
+
+.book-title {
+  /* padding-left: 20px; */
+  display: inline;
+}
+
+.book-author {
+  display: block;
+  margin: 2px 0px;
+}
+
+.view-btn {
+  float: right;
+  margin-left: 5px;
+}

@@ -77,16 +77,25 @@ function Search() {
             {books.length ? (
               <div>
                 {books.map(book => {
-                
                   return (
                     <div className="border border-secondary border-2 rounded mt-3 p-2">
-                      <h5>{book.title}</h5>
-                      <p className="mb-3">Written By: {book.authors}</p>
-                      <hr/>
-                      <h5>Description:</h5>
-                      <p>{book.description}</p>
+                      <div>
+                        <h5 className="book-title">{book.title}</h5>
+                        <button className="view-btn btn btn-success">Save</button>
+                        <a href={book.previewLink} target="_blank"><button className="view-btn btn btn-primary">View</button></a>
+                        <p className="book-author">{book.authors}</p>
+                      </div>
+                        <hr/>
+                      <div className="book-info">
+                        <div className="book-image">
+                          <img src={book.imageLinks.smallThumbnail}></img>
+                        </div>
+                        <div className="book-desc">
+                          <h5>Description:</h5>
+                          <p>{book.description}</p>
+                        </div>
+                      </div>
                     </div>
-                    
                   );
                 })}
               </div>

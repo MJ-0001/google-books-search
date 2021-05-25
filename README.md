@@ -1,11 +1,43 @@
-# Getting Started with Create React App
+# Employee/Staff Directory
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Instructions](#instructions)
+- [Credits](#credits)
+- [Contributions](#contributions)
+- [Tests](#tests)
+- [Questions](#questions)
+- [License](#license)
+---
+## Demo of deployed app:
+![screenshot](./media/demo.gif)
 
-## Available Scripts
+## Description:
 
-In the project directory, you can run:
+This application uses the ReactJS library and the Google Books API to create
+a dynamic web application, which allows users to search for and save
+Google Books.
 
+The backend uses the express.js framework and mongodb. Data retrieved from the
+Google Books API is saved to the mongo database, and rendered when the user
+visits the 'saved' books area of the web app. Functionality to delete a book
+from the 'saved' list has also been incorporated.
+
+---
+
+## Installation:
+* node.js framework
+* react.js library
+* react-dom npm
+* react-router-dom npm
+* axios npm
+* express npm
+* path npm
+* bootstrap npm
+
+---
+## Instructions:
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -39,32 +71,28 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+---
+## Credits:
+This work is my own.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
+## Contributions:
+Please make a pull request for bugs or enhancements.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+## Tests:
 
-### Code Splitting
+ReactJS package tests.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
+## Questions:  
+If you have any questions please reach out to me on Git.
 
-### Analyzing the Bundle Size
+---
+## License:  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+MIT  
 
-### Making a Progressive Web App
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://opensource.org/licenses/MIT
